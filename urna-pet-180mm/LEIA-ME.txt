@@ -1,0 +1,76 @@
+URNA PET — GATO FACETADO — ALTURA MONTADA 180 mm
+
+ARQUIVO PRINCIPAL
+urna_pet_180mm_corpo_e_tampa.3mf
+Contém dois objetos separados em milímetros: corpo e tampa.
+Importe como geometria/modelo a 100%, sem redimensionar cada objeto.
+O arquivo é 3MF padrão, sem perfil de impressora ou material. A disposição
+é apenas inicial; reorganize no fatiador conforme sua mesa. Não é G-code.
+A cor vermelha é visual: use o filamento da cor desejada.
+
+FORMA EXTERNA
+Escala uniforme para altura total montada de 180 mm.
+Dimensões externas aproximadas: 123,72 x 101,23 x 180 mm.
+Não houve suavização, redução de polígonos ou remodelagem da superfície.
+Foram resolvidas sobreposições internas e a conectividade da malha; uma
+microabertura inferior foi fechada para permitir as operações sólidas.
+A comparação de 15.210 pontos da superfície externa acima da junção
+teve distância máxima inferior a 0,001 mm do original escalado.
+A alteração exterior necessária é a separação inferior para a tampa,
+com 0,20 mm de folga axial, além dos três recessos de parafusos por baixo.
+
+CAVIDADE
+Recuo interno da própria forma do gato, e não um cilindro.
+Espessura nominal 3,1 mm; o núcleo geométrico de offset assegura cerca
+de 3,06 mm, exceto os furos e as regiões de junção deliberadamente abertas.
+Pontas e detalhes estreitos demais para essa espessura permanecem maciços.
+Apoios e nervuras ficam por dentro, sem ampliar a superfície exterior.
+Capacidade geométrica útil aproximada: 542 mL, antes de qualquer embalagem.
+Confirme se esse volume atende à quantidade de cinzas pretendida.
+
+TAMPA
+A parte inferior original até a cota 6,0 mm forma a tampa.
+O corpo começa na cota 6,2 mm. A altura montada permanece em 180 mm.
+Guia interna acompanha o contorno da cavidade, com folga nominal de
+0,35 mm e parede de 1,6 mm. A guia sobe cerca de 2,4 mm acima da tampa.
+Há três furos passantes de 3,4 mm e recessos de cabeça de 6,3 mm.
+A tampa NÃO é plana na face externa onde o original não era plano.
+O modelo não contém uma junta de vedação hermética.
+
+FERRAGENS ESCOLHIDAS
+3 parafusos M3 x 10 mm, cabeça abaulada baixa, sextavado interno,
+ISO 7380-1, preferencialmente inox A2.
+3 insertos térmicos de latão M3, comprimento 5 mm, diâmetro externo 4,6 mm.
+Alojamento projetado: diâmetro 4,2 mm, profundidade livre 8,5 mm.
+Confirme a recomendação do fabricante do inserto: insertos M3 não têm
+um único diâmetro externo padronizado. Não use outro tamanho sem conferir.
+Os parafusos ficam acessíveis apenas por baixo, com a cabeça rebaixada.
+
+MONTAGEM
+Instale os insertos com a entrada rente à face inferior dos apoios, sem
+atravessá-los. Teste o encaixe sem cinzas. Posicione a tampa pela guia e
+aperte alternadamente os três parafusos, sem excesso de torque.
+A combinação prevista oferece aproximadamente 5 mm de engate no inserto.
+Para posicionamento CAD montado: ambos os objetos compartilham as
+coordenadas originais dos STLs; no 3MF foram separados para impressão.
+O corpo no 3MF foi baixado 6,2 mm até a mesa; para recompor a montagem,
+suba-o 6,2 mm e alinhe os centros XY com a tampa.
+
+IMPRESSÃO E VALIDAÇÃO
+As duas malhas do 3MF são fechadas, têm orientação consistente e uma
+componente conectada por peça. O arquivo foi reaberto e verificado.
+Interseção computada entre tampa e corpo: aproximadamente 0,005 mm³,
+resíduo numérico muito pequeno; o encaixe físico ainda precisa de teste.
+Não houve fatiamento nem impressão de protótipo neste ambiente.
+Use o 3MF como entrega principal para preservar a conectividade da malha.
+Avalie suportes internos na prévia do seu fatiador, especialmente no
+pescoço/cabeça; eles precisam ser removíveis pela abertura inferior.
+Imprima as paredes do modelo como sólido, sem modo vaso. Não tente
+criar a cavidade apenas ajustando o percentual de preenchimento.
+Faça um teste da região inferior antes de imprimir a peça inteira para
+ajustar folgas à sua impressora e confirmar o diâmetro dos insertos.
+Malha fechada não equivale a impressão estanque. Para conter cinzas finas,
+use embalagem interna lacrada ou uma vedação devidamente ensaiada.
+
+A prévia colorida distingue a tampa apenas para facilitar a leitura.
+O arquivo original enviado foi preservado.

@@ -1,0 +1,44 @@
+{
+  "height_mm": 180,
+  "outer_size_mm": [
+    -64.94695281982422,
+    -50.59486770629883,
+    0.0,
+    58.77793884277344,
+    50.63799285888672,
+    180.0
+  ],
+  "wall_nominal_mm": 3.1,
+  "wall_min_offset_kernel_mm": 3.0592933341593316,
+  "screw_centers_xy_mm": [
+    [
+      -50.859179576820864,
+      0.0003863534838289351
+    ],
+    [
+      3.0408204231791416,
+      31.004095808966724
+    ],
+    [
+      3.0408204231791416,
+      -31.003323101999072
+    ]
+  ],
+  "screw": "3x M3 x 10 mm ISO 7380-1 button head",
+  "insert": "3x M3 heat-set insert, OD 4.6 mm, length 5 mm; bore 4.2 mm; verify supplier",
+  "usable_volume_ml": 542.2908381004385,
+  "assembly_intersection_mm3": 0.004943560717569148,
+  "outside_original_mm3": -0.0018370024760482287,
+  "body_watertight": true,
+  "lid_watertight": true,
+  "body_components": 1,
+  "lid_components": 1,
+  "body_volume_mm3": 142393.65039792386,
+  "lid_volume_mm3": 42408.214196696455,
+  "body_status": "Error.NoError",
+  "lid_status": "Error.NoError",
+  "exterior_comparison_samples": 15083,
+  "exterior_distance_max_mm": 2.1316282072803006e-13,
+  "exterior_distance_mean_mm": 3.009578195084231e-15,
+  "three_mf_roundtrip": "passed; 2 closed meshes with consistent winding"
+}
